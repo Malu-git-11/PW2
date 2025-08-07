@@ -1,5 +1,5 @@
 # Exercícios JavaScript
-Exemplo - Calculadora 
+Exemplo - Boas Vindas 
 
 Exercício 
 
