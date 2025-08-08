@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <input type="number" id="n1" placeholder="Numero 1">
+    <input type="number" id="n2" placeholder="Numero 2">
+    <button onclick="soma()">Resultado</button>
+
+    <div id="soma"></div>
+    <script>
+        function soma() {
+            let n1 = parseFloat(document.getElementById("n1").value);
+            let n2 = parseFloat(document.getElementById("n2").value);
+            let soma = n1 + n2
+
+            document.getElementById("soma").innerText="A soma é " + soma;
+        }
+    </script>
+
+</body>
+</html>
