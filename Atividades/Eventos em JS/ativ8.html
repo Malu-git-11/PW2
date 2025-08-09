@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+</head>
+<body>
+
+    <input type="text" id="str" >
+    <input type="number" id="int">
+    <input type="number"  id="float">
+    
+    <input type="button" value="Tipos" onclick="v8()">
+    <p id="p"></p>
+
+    <script>
+         function v8() {
+            let str = document.getElementById("str").value;
+            let inteiro = parseInt(document.getElementById("int").value);
+            let flutuante = parseFloat(document.getElementById("float").value);
+         
+            document.getElementById("p").innerHTML =`String: ${str} (${typeof str}) <br>
+                                                     Inteiro: ${inteiro} (${typeof inteiro}) <br>
+                                                     Float: ${flutuante} (${typeof flutuante})`;
+        }
+    </script>
+</body>
+</html>
