@@ -1,0 +1,16 @@
+{
+    "name": "admin/map-guaianases",
+    "description": "fazer uma pwa para facilitar os acessos aos polos indicados.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\MapGuaianases\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maria Luiza Mendes, Maria Luisa de Paula, Giovanna Valero e Sarah Isabelly"
+        }
+    ],
+    "require": {}
+}
